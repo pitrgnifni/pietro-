@@ -1,0 +1,25 @@
+:root {
+    --cor-de-fundo:   #000000;
+
+}
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+h1 {
+    background-color: #fff9f9
+}
+
+.cabecalho-menu {
+    background-color: var(--cor-de-fundo)
+}
+
+.cabecalho-menu-item {
+     display: block;
+     padding: 10px;
+     font-size: 24px;
+     text-decoration: none;
+     color: rgb(0, 38, 255);
+     text-align: center;
+     border-top: 1px solid;
+}
