@@ -1,9 +1,10 @@
 :root {
-    --cor-de-fundo:   #000000;
+    --cor-de-fundo:   #f36b6b;
 
 }
 body {
     background-color: var(--cor-de-fundo);
+    text-align: center;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
 }
 
 .cabecalho-menu {
-    background-color: var(--cor-de-fundo)
+    background-color: var(--cor-de-fundo);
 }
 
 .cabecalho-menu-item {
@@ -22,4 +23,17 @@ h1 {
      color: rgb(0, 38, 255);
      text-align: center;
      border-top: 1px solid;
+}
+
+.cabecalho-titulo {
+    font-size: 37px;
+    font-weight: 800;
+    padding:12px;
+    text-align:center;
+}
+
+.lucas{
+    width: 250px;
+
+
 }
